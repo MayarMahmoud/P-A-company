@@ -21,7 +21,7 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <a4/>
+                  <img src={a4}/>
                 </div>
                 <h3>A4 paper</h3>
                 
