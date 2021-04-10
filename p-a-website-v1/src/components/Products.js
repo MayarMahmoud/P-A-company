@@ -6,6 +6,11 @@ import { BsXDiamondFill } from 'react-icons/bs';
 import { GiCrystalize } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import { Link } from 'react-router-dom';
+import {a4} from 'images/a4paper.jpg';
+import { cups } from 'images/paperCups.jpg';
+import {toilet} from 'images/toiletpapers.png';
+import {kitchen} from 'images/kitchenroll.jpg';
+
 
 function Products() {
   return (
@@ -17,14 +22,14 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <FaFire />
+                  <a4 />
                 </div>
-                <h3>Product name</h3>
+                <h3>A4 paper</h3>
                 
                 <ul className='products__container-features'>
+                  {/* <li>Description</li>
                   <li>Description</li>
-                  <li>Description</li>
-                  <li>Description</li>
+                  <li>Description</li> */}
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan
@@ -34,14 +39,14 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <BsXDiamondFill />
+                  <cups />
                 </div>
-                <h3>Product name</h3>
+                <h3>Paper Cups</h3>
                
                 <ul className='products__container-features'>
+                  {/* <li>Description</li>
                   <li>Description</li>
-                  <li>Description</li>
-                  <li>Description</li>
+                  <li>Description</li> */}
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='blue'>
                   Choose Plan
@@ -51,14 +56,31 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <GiCrystalize />
+                  <toilet />
                 </div>
-                <h3>Product Name</h3>
+                <h3>Toilet Papers</h3>
                 
                 <ul className='products__container-features'>
+                  {/* <li>Description</li>
                   <li>Description</li>
+                  <li>Description</li> */}
+                </ul>
+                {/* <Button buttonSize='btn--wide' buttonColor='primary'>
+                  Choose Plan
+                </Button> */}
+              </div>
+            </Link>
+            <Link to='/products' className='products__container-card'>
+              <div className='products__container-cardInfo'>
+                <div className='icon'>
+                  <kitchen />
+                </div>
+                <h3>Kitchen Towels</h3>
+                
+                <ul className='products__container-features'>
+                  {/* <li>Description</li>
                   <li>Description</li>
-                  <li>Description</li>
+                  <li>Description</li> */}
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan
