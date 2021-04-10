@@ -11,7 +11,6 @@ import cups  from '../images/paperCups.jpg';
 import toilet from '../images/tolietpapers.png';
 import  kitchen from '../images/kitchenroll.jpg';
 
-
 function Products() {
   return (
     <IconContext.Provider value={{ color: '#fff', size: 70 }}>
