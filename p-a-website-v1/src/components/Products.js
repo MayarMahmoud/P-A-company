@@ -38,7 +38,7 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <BsXDiamondFill />
+                  <img src={cups} />
                 </div>
                 <h3>Paper Cups</h3>
                
@@ -55,7 +55,7 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <GiCrystalize />
+                  <img src={toilet}/>
                 </div>
                 <h3>Toilet Papers</h3>
                 
@@ -72,7 +72,7 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <kitchen />
+                  <img src={kitchen} />
                 </div>
                 <h3>Kitchen Towels</h3>
                 
