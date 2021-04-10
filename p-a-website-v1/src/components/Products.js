@@ -6,10 +6,10 @@ import { BsXDiamondFill } from 'react-icons/bs';
 import { GiCrystalize } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import { Link } from 'react-router-dom';
-import {a4} from '../images/a4paper.jpg';
-import { cups } from '../images/paperCups.jpg';
-import {toilet} from '../images/toiletpapers.png';
-import {kitchen} from '../images/kitchenroll.jpg';
+import a4 from '../images/a4paper.jpg';
+import cups  from 'images/paperCups.jpg';
+import toilet from 'images/toiletpapers.png';
+import {ReactComponent as kitchen} from 'images/kitchenroll.jpg';
 
 
 function Products() {
@@ -22,7 +22,7 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <a4 />
+                  <a4/>
                 </div>
                 <h3>A4 paper</h3>
                 
@@ -39,7 +39,7 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <cups />
+                  <BsXDiamondFill />
                 </div>
                 <h3>Paper Cups</h3>
                
@@ -56,7 +56,7 @@ function Products() {
             <Link to='/products' className='products__container-card'>
               <div className='products__container-cardInfo'>
                 <div className='icon'>
-                  <toilet />
+                  <GiCrystalize />
                 </div>
                 <h3>Toilet Papers</h3>
                 
