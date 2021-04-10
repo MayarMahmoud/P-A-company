@@ -8,7 +8,7 @@ import { IconContext } from 'react-icons/lib';
 import { Link } from 'react-router-dom';
 import a4 from '../images/a4paper.jpg';
 import cups  from '../images/paperCups.jpg';
-import toilet from '../images/toiletpapers.png';
+import toilet from '../images/tolietpapers.png';
 import  kitchen from '../images/kitchenroll.jpg';
 
 
