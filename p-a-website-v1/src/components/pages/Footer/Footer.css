@@ -22,6 +22,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
+  .navbar-icon{
+    height: 100px;
+    width: 100px;
+  }
   
   .footer-subscription-heading {
     margin-bottom: 24px;

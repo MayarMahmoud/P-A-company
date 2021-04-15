@@ -1,3 +1,6 @@
+import mission from '../../../images/mission.jpg';
+import vision from '../../../images/vision.jpg';
+
 export const homeObjOne = {
     lightBg: false,
     lightText: true,
@@ -8,7 +11,7 @@ export const homeObjOne = {
       'The company’s mission is to be a reliable supplier that provides high quality goods with suitable prices and present it in a professional way as to make the customers as comfortable as possible when dealing with us.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/mission.jpg',
+    img: mission,
     alt: 'Credit Card'
   };
   // export const homeObjTwo = {
@@ -35,7 +38,7 @@ export const homeObjOne = {
     'The vision of the company is not only become one of the most reliable suppliers and biggest firms in the region but also create a big family between us and the customers with maintaining an exquisite level of professionalism.',
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/vision.jpg',
+    img: vision,
     alt: 'Vault'
   };
   
