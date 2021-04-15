@@ -1,6 +1,6 @@
 
 import {BsEnvelopeOpen} from 'react-icons/bs';
-import mail from '../../../images/mail.jpg'
+import mail from '../../../images/emailIcon.png'
 export const homeObjOne = {
     lightBg: false,
     lightText: true,
