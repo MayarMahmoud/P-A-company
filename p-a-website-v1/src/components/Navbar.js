@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
+import pzLogo from '../images/PZ.png'
 
 
 function Navbar() {
@@ -18,7 +19,7 @@ function Navbar() {
            <div className='navbar'>
              <div className='navbar-container container'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    <MdFingerprint className='navbar-icon'/>
+                    <img src ={pzLogo} className='navbar-icon'/>
                     P&Z
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>

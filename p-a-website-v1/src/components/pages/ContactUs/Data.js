@@ -46,7 +46,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Email',
-    headline: '...@yahoo.com',
+    headline: 'PZforpaper@gmail.com',
     // description:
     //   'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
     // buttonLabel: 'Sign Up Now',

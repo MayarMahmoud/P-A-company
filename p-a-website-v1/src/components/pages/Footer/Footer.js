@@ -8,6 +8,7 @@ import {
  
 } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
+import pzLogo from '../../../images/PZ.png'
 
 function Footer() {
   return (
@@ -49,8 +50,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+            <Link to='https://instagram.com/pz_for_paper?igshid=1awzklq0g6ues'>Instagram</Link>
+            <Link to='https://www.facebook.com/PZ-102467528638608/'>Facebook</Link>
           </div>
         </div>
       </div>
@@ -58,7 +59,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
+              <img src={pzLogo} className='navbar-icon' />
               P&Z
             </Link>
           </div>
@@ -66,7 +67,7 @@ function Footer() {
           <div className='social-icons'>
           <Link
               className='social-icon-link'
-              to='/'
+              to='https://instagram.com/pz_for_paper?igshid=1awzklq0g6ues'
               target='_blank'
               aria-label='Instagram'
             >
@@ -74,7 +75,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to= '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+              to= 'https://www.facebook.com/PZ-102467528638608/'
               target='_blank'
               aria-label='Facebook'
             >
