@@ -1,5 +1,6 @@
 
 import {BsEnvelopeOpen} from 'react-icons/bs';
+import mail from '../../../images/mail.jpg'
 export const homeObjOne = {
     lightBg: false,
     lightText: true,
@@ -32,7 +33,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Mobile Number',
-    headline: '01124001663  \n 0115 3050356',
+    headline: '01124001663  \n   01153050356',
     // description:
     //   "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
     // buttonLabel: 'Start Now',
@@ -51,6 +52,6 @@ export const homeObjOne = {
     //   'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
     // buttonLabel: 'Sign Up Now',
     imgStart: '',
-    img: 'images/gmail.svg',
+    img: mail,
     alt: 'Vault'
   };

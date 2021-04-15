@@ -50,8 +50,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='https://instagram.com/pz_for_paper?igshid=1awzklq0g6ues'>Instagram</Link>
-            <Link to='https://www.facebook.com/PZ-102467528638608/'>Facebook</Link>
+            <Link to='//https://instagram.com/pz_for_paper?igshid=1awzklq0g6ues'>Instagram</Link>
+            <Link to='//https://www.facebook.com/PZ-102467528638608/'>Facebook</Link>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ function Footer() {
           <div className='social-icons'>
           <Link
               className='social-icon-link'
-              to='https://instagram.com/pz_for_paper?igshid=1awzklq0g6ues'
+              to='//https://instagram.com/pz_for_paper?igshid=1awzklq0g6ues'
               target='_blank'
               aria-label='Instagram'
             >
@@ -75,7 +75,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to= 'https://www.facebook.com/PZ-102467528638608/'
+              to= '//https://www.facebook.com/PZ-102467528638608/'
               target='_blank'
               aria-label='Facebook'
             >

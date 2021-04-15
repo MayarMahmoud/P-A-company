@@ -8,7 +8,7 @@ export const homeObjOne = {
     topLine: 'Mission',
     headline: '',
     description:
-      'The company’s mission is to be a reliable supplier that provides high quality goods with suitable prices and present it in a professional way as to make the customers as comfortable as possible when dealing with us.',
+      'Improving people’s lives, the environment and our performance is on the top of our priorities by always evolving and becoming as reliable as possible for our clients. This is the P&Z way. Always better always reliable.',
     buttonLabel: 'Get Started',
     imgStart: '',
     img: mission,
