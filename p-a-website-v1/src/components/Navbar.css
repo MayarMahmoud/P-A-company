@@ -33,6 +33,8 @@
   text-decoration: none;
   font-size: 2rem;
   display: flex;
+  height: 50px;
+  width: 50px;
   align-items: center;
 }
 
