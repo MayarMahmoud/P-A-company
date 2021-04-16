@@ -122,6 +122,11 @@
       background: #242424;
       margin: 24px;
     }
+    .products__container-card:nth-child(4) {
+      transform: scale(1);
+      background: #242424;
+      margin: 24px;
+    }
   
     .products__container-card:hover {
       transform: none;
