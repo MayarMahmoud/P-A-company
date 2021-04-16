@@ -33,7 +33,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Mobile Number',
-    headline: '01124001663  \n   01153050356',
+    headline: '+201124001663  \n   +201153050356',
     // description:
     //   "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
     // buttonLabel: 'Start Now',
